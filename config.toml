@@ -1,0 +1,4 @@
+baseURL = "https://alkoding.com/"
+languageCode = "in"
+title = "alkoding.com - Learn Your Way to Become Data Scientist"
+theme = "ananke"
