@@ -1,4 +1,25 @@
-baseURL = "https://alkoding.com/"
-languageCode = "in"
-title = "alkoding.com - Learn Your Way to Become Data Scientist"
-theme = "ananke"
+baseurl = "https://alkoding.com/"
+title = "Alkoding"
+copyright = "Copyright &copy; 2017 - Hammas Hamzah Kuddah"
+canonifyurls = true
+
+theme = "kiera"
+
+disqusShortname = "alkoding"
+googleAnalytics = "UA-115608528-1"
+
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+  name = "Hammas Hamzah Kuddah"
+  email = "hammas.hamzah@gmail.com"
+  github = "hammashamzah"
+  linkedin = "hammashamzah"
+  twitter = "hammashamzah"
+
+[params]
+    tagline = "Some things are better left written"
