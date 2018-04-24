@@ -3,7 +3,7 @@ title = "Alkoding"
 copyright = "Copyright &copy; 2017 - Hammas Hamzah Kuddah"
 canonifyurls = true
 
-theme = "kiera"
+theme = "casper-two"
 
 disqusShortname = "alkoding"
 googleAnalytics = "UA-115608528-1"
@@ -12,6 +12,7 @@ paginate = 3
 
 summaryLength = 30
 enableEmoji = true
+
 pygmentsCodeFences = true
 
 [author]
@@ -22,4 +23,30 @@ pygmentsCodeFences = true
   twitter = "hammashamzah"
 
 [params]
-    tagline = "Some things are better left written"
+  title = "Alkoding.com"
+  tagline = "Teknologi, Lifestyle, Design, Tips dan Trik"
+  fbName = "alkoding"
+  twitterName = "alkoding"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "Teknologi"
+  url = "/tags/teknologi/"
+  weight = 100
+
+[[menu.main]]
+  name = "Lifestyle"
+  url = "/tags/lifestyle/"
+  weight = 100
+
+[[menu.main]]
+  name = "Design"
+  url = "/tags/golang/"
+  weight = 100
